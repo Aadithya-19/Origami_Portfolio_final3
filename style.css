@@ -1,0 +1,81 @@
+.Header{
+    background-color: tomato;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff
+}
+
+h1 {
+    margin-left : 30px;
+}
+
+/* a{
+    margin-right : 30px;
+    margin-top: 30px;
+
+    justify-content: space-between;
+} */
+
+.Grid{
+    display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     
+}
+
+/* .Grid img{
+    border:2px solid #000000;
+    border-radius:50px;
+} */
+
+body{
+    background-color: aquamarine;
+    margin:0px;
+}
+
+
+
+h1{
+
+    color:rgb(165, 42, 42)
+
+}
+
+.Item { 
+
+    border-radius: 20px; 
+    background-color: #ffffff; 
+    padding: 30px; margin: 25px; 
+    width:310px; 
+    font-family: fantasy; 
+}
+
+.Item h2{
+    /* position: absolute; */
+    bottom : 60%;
+    right: 70%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    opacity : 0;
+}
+
+.Item:hover h2{
+    opacity : 1;
+    transform : scale(1.2);
+}
+
+a:link{
+    color: rgb(28, 235, 45);
+}
+
+a:visited{
+    color: slateblue;
+
+}
+
+
+.Item:hover img{
+    opacity: 0.25;
+}
